@@ -34,6 +34,12 @@ Install the required dependencies:
 $ pip install -r requirements.txt
 ```
 
+Install the AWS CDK Toolkit package:
+
+```
+$ npm install -g aws-cdk
+```
+
 At this point the CloudFormation template can be synthesized for this code (optional):
 
 ```
