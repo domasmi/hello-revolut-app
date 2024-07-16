@@ -72,7 +72,7 @@ $ cdk deploy --profile test
 
 We can send HTTP PUT requests with a JSON object:
 
-PUT /hello/<username> { "dateOfBirth": "YYYY-MM-DD" }
+PUT /hello/\<username\> { "dateOfBirth": "YYYY-MM-DD" }
 
 ```json
 {
